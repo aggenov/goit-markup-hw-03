@@ -335,7 +335,6 @@ img {
 }
 
 .button-item {
-    
     cursor: pointer;
     background: var(--background-color);
     border: 1px solid var(--button-color-border);
@@ -355,13 +354,24 @@ img {
     color: #FFFFFF;
     cursor: pointer;
 }
-/* Development card */
+
+/* Development card list */
+
 .developments-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
+
+.development-item {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: calc((100% - 48px) / 3); */
+    margin-bottom: 24px;
+}
+
 .dev-card {
+
     padding: 32px 16px;
     border: 0.5px solid #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
@@ -369,11 +379,11 @@ img {
                 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+
+
 .development-item:hover,
 .development-item:focus {
-
-    /* text-align: center; */
-    /* display: block; */
+    opacity: 0.5;
 }
 
 .development-text {
