@@ -345,6 +345,9 @@ img {
     color: #FFFFFF;
     cursor: pointer;
 }
+.button-item:active {
+    background-color: var(--buttom-color-click);
+}
 
 /* Development card list */
 
