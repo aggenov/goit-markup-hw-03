@@ -60,14 +60,21 @@ img {
 .navigation .container{
     inline-size: inline-box;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    align-items: center;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 .nav-box {
     display: flex;
+    inline-size: inline-box;
+    align-items: center;
     
 }
-.nav-link {}
+.nav-link {
+    display: inline-block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -91,14 +98,20 @@ img {
  .nav-menu {
     display: flex;
     margin-left: 77px;
+    gap: 40px;
  }
 
+ .nav-menu-addres{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+ }
  .nav-item {
   
  }
 
 .nav-menu>.nav-item:not(:last-child) {
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .nav-link {
@@ -112,6 +125,8 @@ img {
     line-height: 1.5;
     color: var(--main-color);
     text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;   
 }
 .nav-menu>.nav-addres:not(:last-child) {
     margin-right: 40px;
@@ -296,12 +311,15 @@ img {
     display: block;
 }
 
+.logo-footer {
+    display: inline-block;
+}
 
 .footer-text {
     line-height: 1,5;
     color: var(--button-color-border);
     max-width: 264px;
-    margin-top: 16px;
+    margin-top: 8px;
 }
 
 
