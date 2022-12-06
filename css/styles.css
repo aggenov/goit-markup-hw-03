@@ -321,6 +321,10 @@ img {
     display: inline-block;
 }
 
+.logo-footer .logo {
+    padding: 0;
+}
+
 .footer-text {
     line-height: 1,5;
     color: var(--button-color-border);
